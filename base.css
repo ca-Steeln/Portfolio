@@ -219,7 +219,7 @@ header::after{
 
 .main-section-field .bg-content{
     display: grid;
-    align-content: center;
+    align-content: start;
     color: var(--sec-c);
     font-weight: 600;
     position: absolute;
@@ -229,6 +229,7 @@ header::after{
     z-index: -1;
     width: 100%;
     height: 100%;
+    top: 10%;
 }
 
 
