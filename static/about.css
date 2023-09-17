@@ -1,0 +1,86 @@
+
+
+.main-section article{
+    display: grid;
+    padding: 1.5rem 0;
+}
+
+.main-section .main-article .content{
+
+    border: firebrick 2px solid;
+    height: 100%;
+}
+
+
+/* info section  -----------------------*/
+
+.info-section{
+    display: grid;
+    align-items: center;
+}
+
+.info-section::before{
+    content: 'Explore Our Service';
+    color: var(--main-light-c);
+    font-size: clamp(1.5rem, calc(1rem + 2.7vw), 3rem);
+    font-weight: bold;
+}
+
+
+.card-info-field{
+
+    border: var(--sec-c) 2px solid;
+    border-radius: .4rem;
+    padding: 2%;
+
+}
+
+.card-info-field article{
+    display: grid;
+    justify-items: center;
+    padding: .5rem;
+}
+
+.card-info-field article::before{
+    font-weight: bold;
+    font-size: clamp(1rem, calc(1rem + 1.5vw), 2rem);
+    color: var(--warm-c);
+    margin: 1rem 0;
+    border-bottom: var(--warm-c) 1px solid;
+}
+
+
+.card-info-field .introducing::before{
+    content: 'Introducing Our Text Content Analysis Service';
+}
+
+.card-info-field .offer-content::before{
+    content: 'What We Offer';
+}
+
+.card-info-field .offer-content ul{
+    padding: .5rem;
+}
+
+.card-info-field .service-content::before{
+    content: 'Why Choose Our Service';
+}
+
+
+
+.card-info-field article ul li h3{
+
+    font-weight: 600;
+    color: var(--main-light-c);
+}
+
+.card-info-field article ul li p{
+
+    font-weight: 400;
+    color: var(-sec-c);
+}
+
+.card-info-field article p{
+    padding: .5rem ;
+    width: 100%;
+}
