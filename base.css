@@ -266,7 +266,7 @@ footer{
     grid-auto-columns: auto;
     grid-auto-flow: column;
     place-content: center;
-    color: var(--sec-c);
+    color: var(--sec-light-c);
     font-size: clamp(2rem, calc(2rem + 5vw), 5rem);
 }
 
@@ -317,7 +317,6 @@ footer .navigation::before{
 footer .navigation nav{
 
     display: grid;
-    justify-items: center;
 }
 
 .navigation .footer-nav-link{
@@ -343,8 +342,8 @@ footer .get-around::before{
     content: 'Get around';
     line-height: 1.3;
     font-weight: 600;
-    color: var(--warm-c);
-    font-size: clamp(1rem, calc(.5rem + 1.5vw), 1.5rem);
+    color: var(--sec-light-c);
+    font-size: clamp(1.3rem, calc(.5rem + 1.5vw), 1.9rem);
 }
 
 footer .get-around {
@@ -352,12 +351,17 @@ footer .get-around {
     display: grid;
     width: fit-content;
     height: fit-content;
-    gap: .7rem;
+    gap: .5rem;
 
 }
 
 footer .get-around a{
     font-weight: 400;
+}
+
+footer .get-around a:hover{
+
+    text-decoration: underline;
 }
 
 footer .context{
@@ -542,12 +546,6 @@ footer .context::before{
 
         font-size: clamp(1.5rem, calc(.5rem + 2vw), 2.5rem);
     }
-
-    footer .get-around a{
-        font-size: clamp(1.3rem, calc(.5rem + 1.3vw), 1.7rem);
-        font-weight: 400;
-    }
-
 
 
 }

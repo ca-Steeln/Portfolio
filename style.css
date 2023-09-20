@@ -31,6 +31,12 @@
     animation: changeBorderColor 3s infinite;
 }
 
+.main-section .main-article .content .main-content{
+    color: var(--warm-c);
+    font-weight: 800;
+    font-size: clamp(1.5rem, calc(1rem + 4vw), 2.5rem);
+}
+
 .main-section .main-article .navigate{
     display: grid;
     justify-content: center;
@@ -236,12 +242,12 @@
     transition: all 125ms ease;
     cursor: pointer;
     padding: 0;
-    background-color: var(--sec-dark-c);
+    background-color: var(--dark-c);
 }
 
 .projects .project-card:hover,
 .projects .project-card:active{
-    transform: scale(1.02);
+    transform: scale(1.01);
 
 }
 
@@ -279,7 +285,7 @@
 .projects .project-card .card-content .card-description{
     display: grid;
     place-content: center;
-    line-height: 1.1;
+    line-height: 1.2;
     font-weight: 600;
     height: 100%;
     color: var(--sec-c);
@@ -335,4 +341,3 @@
 
 
 }
-

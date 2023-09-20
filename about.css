@@ -51,19 +51,19 @@
 
 
 .card-info-field .introducing::before{
-    content: 'Introducing Our Text Content Analysis Service';
+    content: 'Introducing';
 }
 
 .card-info-field .offer-content::before{
-    content: 'What We Offer';
+    content: 'Our Offering';
 }
 
 .card-info-field .offer-content ul{
     padding: .5rem;
 }
 
-.card-info-field .service-content::before{
-    content: 'Why Choose Our Service';
+.card-info-field .conclusion-content::before{
+    content: 'Get in Touch';
 }
 
 
